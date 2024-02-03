@@ -1,11 +1,13 @@
-
-
-
 body {background-color:#F5F5F5 ;
    font-family: 'Open Sans', sans-serif;
 }
 
+hr { background-color: #ed8a63; height: 2px; border: 0; }
+
+
+
  .header {background-color: #3a4660;
+  text-align: center;
   margin: -10px ; 
   padding-top: 10px; 
   padding-bottom: 10px;}
@@ -30,8 +32,37 @@ font-size:16px;
 font-weight: bolder; }
 
 
+.education_header {
+  margin-top: 25px 
+ }
+.edu_uccs  {font-weight: bold}
+.ma_psysci {font-style: italic}
+.edu_csusm {font-weight: bold}
+.ba_psy {font-style: italic}
+.miracosta {font-weight: bold}
+.pvbh {font-weight: bold}
+.uccs {font-weight: bold}
+.GGGACC{font-weight: bold}
 
-.tutor{ color: #845007}
-.intake { color: #845007}
-.lab { color: #845007}
-.admin { color: #845007}
+#header_line {margin-top: -10px}
+#prof_line  {margin-top: -10px}
+#uccs_right {float:right;}
+#ma_right {float:right;}
+#sanmarcos {float:right;}
+#tutor_dates {float:right;}
+#intake_dates {float:right;}
+#instruc_dates {float:right;}
+#admin_dates {float:right;}
+
+
+
+
+.tutor{ color: #845007;
+font-style: italic; }
+.intake { color: #845007;
+font-style: italic; }
+.lab { color: #845007;
+font-style: italic; }
+.admin { color: #845007;
+font-style: italic; }
+
